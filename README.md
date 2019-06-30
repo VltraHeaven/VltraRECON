@@ -12,17 +12,19 @@ Ubuntu 18.04
 Clone the repository
 ```
 git clone https://github.com/VltraHeaven/VltraRECON.git
-
+```
 Give the script execute permissions
 ```
 chmod +x vltrarecon.sh
-
+```
 Add your API keys (if so desired) to config.ini and config.json and run
 ```
+vim ./config.json
+vim ./config.ini
 sudo ./vltrarecon.sh
-
-The final output files can be found in $HOME/Targets/
 ```
+The final output files can be found in $HOME/Targets/
+
 
 ## Built With
 
