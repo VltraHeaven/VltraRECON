@@ -9,22 +9,28 @@ Ubuntu 18.04
 
 ### Installation
 
-Clone the repository: git clone https://github.com/VltraHeaven/VltraRECON.git
+Clone the repository
 ```
-Give the script execute permissions: chmod +x vltrarecon.sh
+git clone https://github.com/VltraHeaven/VltraRECON.git
+
+Give the script execute permissions
 ```
-Add your API keys (if so desired) to config.ini and config.json and run: sudo ./vltrarecon.sh
+chmod +x vltrarecon.sh
+
+Add your API keys (if so desired) to config.ini and config.json and run
 ```
+sudo ./vltrarecon.sh
+
 The final output files can be found in $HOME/Targets/
 ```
 
 ## Built With
 
 * Docker CE (https://github.com/docker/docker-ce)
-* OWASP Amass [Containerized] (https://github.com/OWASP/Amass)
-* Subfinder [Containerized](https://github.com/subfinder/subfinder)
+* OWASP Amass (https://github.com/OWASP/Amass)
+* Subfinder (https://github.com/subfinder/subfinder)
 * Subjack (https://github.com/haccer/subjack)
-* TKO-Subs [Containerized] (https://github.com/anshumanbh/tko-subs)
+* TKO-Subs (https://github.com/anshumanbh/tko-subs)
 * MassDNS (https://github.com/blechschmidt/massdns)
 * Aquatone (https://github.com/michenriksen/aquatone)
 * CORScanner (https://github.com/chenjj/CORScanner)
