@@ -17,7 +17,6 @@ Give the script execute permissions: chmod +x vltrarecon.sh
 ```
 Add your API keys (if so desired) to config.ini and config.json and run: sudo ./vltrarecon.sh
 
-```
 The final output files can be found in $HOME/Targets/
 
 ## Built With
