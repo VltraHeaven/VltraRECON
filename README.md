@@ -72,4 +72,12 @@ The final output files can be found in $HOME/Targets/
 * Subfinder (https://github.com/subfinder/subfinder)
 * Subjack (https://github.com/haccer/subjack)
 * TKO-Subs (https://github.com/anshumanbh/tko-subs)
-* MassDNS (https://github.com/blechschmidt/
+* MassDNS (https://github.com/blechschmidt/massdns
+* Aquatone (https://github.com/michenriksen/aquatone)
+* CORScanner (https://github.com/chenjj/CORScanner)
+* Masscan (https://github.com/robertdavidgraham/masscan)
+* Wafw00f (https://github.com/EnableSecurity/wafw00f.git)
+
+## Acknowledgements
+
+Big thank you to the researchers and developers that led to the creation of the tools leveraged in this script and that continue to push the boundaries of knowledge in infosec and computer programming.
