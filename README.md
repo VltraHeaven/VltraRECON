@@ -18,8 +18,48 @@ chmod +x vltrarecon.sh
 ```
 Add your API keys (if so desired) to config.ini and config.json and run
 ```
-vim ./config.json
-vim ./config.ini
+nano ./config.json
+{
+        "virustotalApikey": "API_KEY_HERE",
+        "passivetotalUsername": "USERNAME_HERE",
+        "passivetotalKey": "API_KEY_HERE",
+        "securitytrailsKey": "API_KEY_HERE",
+        "riddlerEmail": "EMAIL_HERE",
+        "riddlerPassword": "PASSWORD_HERE",
+        "censysUsername": "USERNAME_HERE",
+        "censysSecret": "API_SECRET_HERE",
+        "shodanApiKey": "API_KEY_HERE"
+}
+
+nano ./config.ini
+...
+# Uncomment and provide API key information for each applicable data source
+#[AlienVault]
+#apikey =
+
+#[BinaryEdge]
+#apikey =
+
+#[Censys]
+#apikey =
+#secret =
+
+#[CertDB]
+#username = 
+#password =
+
+#[CIRCL]
+#username =
+#password =
+
+#[DNSDB]
+#apikey =
+
+#[PassiveTotal]
+#username =
+#apikey =
+...
+
 sudo ./vltrarecon.sh
 ```
 The final output files can be found in $HOME/Targets/
