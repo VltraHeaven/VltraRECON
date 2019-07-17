@@ -1,6 +1,6 @@
 # VltraRECON
 
-A bash script aimed at quick deployment of modern reconnisance tools in a cloud VPS environment.
+A work-flow oriented bash script aimed at quick deployment of modern bug bounty recon tools in a cloud VPS environment.
 
 ### Prerequisites
 
@@ -8,15 +8,15 @@ Cloud VPS: 2 cores, 4GB RAM, Ubuntu 18.04
 
 ### Installation
 
-Clone the repository
+Clone the repository to the "$HOME" directory
 ```
-git clone https://github.com/VltraHeaven/VltraRECON.git
+git clone https://github.com/VltraHeaven/VltraRECON.git $HOME/
 ```
 Give the script execute permissions
 ```
-chmod +x vltrarecon.sh
+chmod +x $HOME/VltraRECON/vltrarecon.sh
 ```
-Add your API keys (if so desired) to config.ini and config.json and run
+Add your API keys (if so desired) to the shodan_API, config.ini and config.json files and run.
 ```
 nano ./config.json
 {
@@ -45,7 +45,7 @@ nano ./config.ini
 #secret =
 
 #[CertDB]
-#username = 
+#username =
 #password =
 
 #[CIRCL]
@@ -60,7 +60,7 @@ nano ./config.ini
 #apikey =
 ...
 
-sudo ./vltrarecon.sh
+sudo -H $HOME/vltrarecon.sh
 ```
 The final output files can be found in $HOME/Targets/
 
@@ -77,7 +77,8 @@ The final output files can be found in $HOME/Targets/
 * CORScanner (https://github.com/chenjj/CORScanner)
 * Masscan (https://github.com/robertdavidgraham/masscan)
 * Wafw00f (https://github.com/EnableSecurity/wafw00f.git)
+* Shodan-CLI (https://cli.shodan.io/)
 
 ## Acknowledgements
 
-Big thank you to the researchers and developers that led to the creation of the tools leveraged in this script and that continue to push the boundaries of knowledge in infosec and computer programming.
+Big thank you to the researchers and developers that led to the creation of the tools leveraged in this script and that continue to push the boundaries of knowledge in technology.
